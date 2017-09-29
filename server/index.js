@@ -8,7 +8,6 @@ const port = process.env.PORT || 3000
 // Import and Set Nuxt.js options
 let config = require('../nuxt.config.js')
 
-
 class Server {
   constructor () {
     this.app = new Koa();
